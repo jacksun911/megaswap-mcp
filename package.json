@@ -1,12 +1,12 @@
 {
   "name": "megaswap-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "mcpName": "io.github.jacksun911/megaswap-mcp",
   "description": "MCP server for MegaSwap — AI-native DEX on MegaETH. Swap tokens, manage liquidity, and query prices via AI agents.",
   "type": "module",
   "main": "index.js",
   "bin": {
-    "megaswap-mcp": "./index.js"
+    "megaswap-mcp": "index.js"
   },
   "files": [
     "index.js",
@@ -33,6 +33,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jacksun911/megaswap-mcp.git"
+    "url": "git+https://github.com/jacksun911/megaswap-mcp.git"
   }
 }
