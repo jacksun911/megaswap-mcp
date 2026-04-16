@@ -1,0 +1,35 @@
+{
+  "name": "io.github.jacksun911/megaswap-mcp",
+  "description": "MCP server for MegaSwap — AI-native DEX on MegaETH. Swap tokens, query prices, and manage liquidity pools via AI agents.",
+  "repository": {
+    "url": "https://github.com/jacksun911/megaswap-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "megaswap-mcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "MEGASWAP_PRIVATE_KEY",
+          "description": "Private key for executing swaps and liquidity operations (optional — only needed for write operations)",
+          "isRequired": false,
+          "isSecret": true,
+          "format": "string"
+        },
+        {
+          "name": "MEGASWAP_RPC_URL",
+          "description": "Custom MegaETH RPC endpoint (defaults to https://mainnet.megaeth.com/rpc)",
+          "isRequired": false,
+          "isSecret": false,
+          "format": "string"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "megaswap-mcp",
+  "version": "1.0.0",
+  "mcpName": "io.github.jacksun911/megaswap-mcp",
+  "description": "MCP server for MegaSwap — AI-native DEX on MegaETH. Swap tokens, manage liquidity, and query prices via AI agents.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "megaswap-mcp": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "megaeth",
+    "dex",
+    "defi",
+    "swap",
+    "liquidity",
+    "ai-agent",
+    "megaswap"
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "ethers": "^6.13.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacksun911/megaswap-mcp.git"
+  }
+}
